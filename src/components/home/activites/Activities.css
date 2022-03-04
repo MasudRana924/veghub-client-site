@@ -71,7 +71,7 @@
         margin-top: -40px;
     }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 440px) {
     .activities-card{
         background-color: rgba(0, 128, 0, 0.856);
         border:1px solid gainsboro;
@@ -94,7 +94,7 @@
     }
     .shipping{
         background-color: black;
-         margin-left: 130px;
+         margin-left: 150px;
        
         border-radius: 50%;
         height:80px;

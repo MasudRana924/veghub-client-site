@@ -148,23 +148,22 @@
         margin-left: -190px;  
     }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 440px) {
     
     .google-apple{
-        margin-left: -70px;
+        margin-left: -90px;
         margin-top:20px;
     }
    
     .footer-icon{
-        margin-left: -165px;
+        margin-left: -200px;
     }
     .input-footer{
         border:none;
         outline-style: none;
-        margin-left: -5px;  
+        margin-left: -35px;  
     }
     .chat-btn{
-        
         display: none;
     }
     
