@@ -1,0 +1,67 @@
+.shipping-form{
+    margin:30px 100px;
+
+}
+.confirm{
+    margin-top: 100px;
+}
+.shipping-form input{
+    display:block;
+    margin-top:30px;
+    padding:5px;
+    border :1px solid gray;
+    border-radius: 5px;
+    width:400px;
+}
+.error{
+    color:red
+}
+.order-section{
+    border:1px solid gainsboro;
+}
+.pay-icon{
+    font-size: 40px;
+    color:black;
+  
+}
+.visa-icon{
+    font-size: 40px;
+    color:rgba(0, 0, 255, 0.712);
+  
+}
+.master-icon{
+    font-size: 40px;
+    color:rgb(0, 0, 255);
+  
+}
+.pay-btn{
+    width:50%;
+    background-color: fuchsia;
+    border:1px solid fuchsia;
+    color:white;
+}
+.visa-btn{
+    width:50%;
+    background-color:purple;
+    border:1px solid purple;
+    color:white;
+}
+.master-btn{
+    width:50%;
+    background-color: red;
+    border:1px solid red;
+    color:white;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    .shipping-form{
+        margin-left: -1px;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+   .contact-info{
+       margin-left: 100px;
+   }
+  }

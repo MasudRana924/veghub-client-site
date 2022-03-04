@@ -1,0 +1,26 @@
+.recom-card{
+    text-align: center;
+    opacity: 1;
+    width: 300px;
+    height:100px;   
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 50px;
+    color:white;
+}
+.slickImg{
+    height:100px;
+    width: 60%; 
+}
+.price-tag{
+    font-weight: bold;
+    margin-top: -20px;
+}
+.btn-feature{
+    width:100%;
+    border-radius: 5px;
+     background-color: rgba(0, 128, 0, 0.808);
+     border:2px solid rgba(0, 128, 0, 0.808);
+     height:60px;
+     color:white;
+}

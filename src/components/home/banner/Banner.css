@@ -1,0 +1,31 @@
+.banner-image{
+    width:100%;
+    height:450px;
+}
+.banner-section{
+   background-color: white;
+    color:white;
+}
+
+.banner-btn{
+    background-color: rgba(0, 128, 0, 0.883);
+    border:#FE5F41;
+    color:#fff;
+   margin-left:-320px;
+}
+@media only screen and (max-width: 640px) {
+    .banner-btn{
+        background-color: rgba(0, 128, 0, 0.883);
+        border:#FE5F41;
+        color:#fff;
+       margin-left:-430px;
+    } 
+}
+@media only screen and (max-width: 400px) {
+    .banner-btn{
+        background-color: rgba(0, 128, 0, 0.883);
+        border:#FE5F41;
+        color:#fff;
+       margin-left:-230px;
+    } 
+}

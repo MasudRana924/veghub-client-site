@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-steak-white-paper_144627-10266.jpg?w=826",
+      "price": 700
+    },
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-meat_144627-33845.jpg?w=740",
+      "price": 350
+    },
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-steak-white-paper_144627-10270.jpg?w=740",
+      "price": 200
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/cutlet-lamb_95419-4194.jpg?w=740",
+      "price": 1200
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/chopped-raw-meat-process-preparing-forcemeat-by-means-meat-grinder-homemade-sausage-ground-beef_2829-19647.jpg?w=740",
+      "price": 600
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/mutton-meat-isolated_181303-255.jpg?w=740",
+      "price": 300
+    }
+  ]

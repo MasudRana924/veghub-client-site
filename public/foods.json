@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Bowl with almond ",
+      "img": "https://img.freepik.com/free-photo/bowl-with-almond-white-background-top-view_1150-37662.jpg?w=740",
+      "price": 700
+    },
+    {
+      "name": "Raisins",
+      "img": "https://img.freepik.com/free-photo/top-view-assortment-dried-fruits-black-yellow-raisins_141793-9369.jpg?w=740",
+      "price": 1000
+    },
+    {
+      "name": "Nuts",
+      "img": "https://img.freepik.com/free-photo/fresh-peanuts-white_144627-16020.jpg?w=740",
+      "price": 200
+    },
+    {
+      "name": "Cashew Nuts",
+      "img": "https://img.freepik.com/free-photo/cashew-nuts-isolated-white_1401-472.jpg?w=740",
+      "price": 600
+    },
+    {
+      "name": "Dates",
+      "img": "https://img.freepik.com/free-photo/dried-date-palm-isolated-white-clipping-path_26628-356.jpg?w=826",
+      "price": 800
+    },
+    {
+      "name": "Chickpea",
+      "img": "https://img.freepik.com/free-photo/closeup-chickpeas-legumes_53876-23107.jpg?w=740",
+      "price": 90
+    },
+    {
+        "name": "Wal Nuts",
+        "img": "https://img.freepik.com/free-photo/fresh-walnut_144627-16134.jpg?w=740",
+        "price": 600
+      },
+      {
+        "name": "pistachio nuts",
+        "img": "https://img.freepik.com/free-photo/pile-pistachios_1308-41523.jpg?w=740",
+        "price": 800
+      },
+      {
+        "name": "Raisins",
+        "img": "https://img.freepik.com/free-photo/top-view-assortment-dried-fruits-black-yellow-raisins_141793-9369.jpg?w=740",
+        "price": 1000
+      }
+      
+  ]

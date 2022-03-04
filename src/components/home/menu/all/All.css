@@ -1,0 +1,38 @@
+.spinner{
+    color:green;
+    
+}
+.product-card{
+    height:270px;
+    border:1px solid rgba(0, 128, 0, 0.774);
+    border-radius: 5px;
+}
+.card-img{
+    height:200px;
+    
+}
+.price{
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button{
+    background-color: rgba(0, 128, 0, 0.774);
+    border:1px solid rgba(0, 128, 0, 0.774);
+    font-size: 16px;
+    border-radius: 15px;
+    color:black;
+}
+.cart-heart{
+display: none;
+margin-top: -35px;
+}
+.cart-style{
+    display: flex;
+    justify-content: space-between;
+}
+.product-card:hover .cart-heart{
+     display:block;
+     justify-content: space-between;
+
+}

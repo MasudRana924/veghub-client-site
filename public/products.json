@@ -1,0 +1,187 @@
+[
+    {
+      "name": "Tomatto",
+      "img": "https://image.freepik.com/free-vector/fresh-tomato_1053-566.jpg?w=740",
+      "price": 10
+    },
+    {
+      "name": "Capsicum",
+      "img": "https://image.freepik.com/free-photo/pack-four-colorful-peppers_1203-1842.jpg?w=740",
+      "price": 30
+    },
+    {
+      "name": "Onion",
+      "img": "https://image.freepik.com/free-photo/red-onion-whole-isolated-white_146671-19175.jpg?w=740",
+      "price": 10
+    },
+    {
+      "name": "Potato",
+      "img": "https://image.freepik.com/free-photo/potato-sack-isolated-white_1150-6160.jpg?w=740",
+      "price": 10
+    },
+    {
+      "name": "Green Chilli",
+      "img": "https://image.freepik.com/free-photo/green-chili-peppers_2829-14199.jpg?w=740",
+      "price": 20
+    },
+    {
+      "name": "Brinjal",
+      "img": "https://4.imimg.com/data4/VU/SC/MY-32260786/fresh-brinjal-500x500.jpg",
+      "price": 10
+    },
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-steak-white-paper_144627-10266.jpg?w=826",
+      "price": 700
+    },
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-meat_144627-33845.jpg?w=740",
+      "price": 350
+    },
+    {
+      "name": "Beef",
+      "img": "https://image.freepik.com/free-photo/raw-steak-white-paper_144627-10270.jpg?w=740",
+      "price": 200
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/cutlet-lamb_95419-4194.jpg?w=740",
+      "price": 1200
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/chopped-raw-meat-process-preparing-forcemeat-by-means-meat-grinder-homemade-sausage-ground-beef_2829-19647.jpg?w=740",
+      "price": 600
+    },
+    {
+      "name": "Mutton",
+      "img": "https://image.freepik.com/free-photo/mutton-meat-isolated_181303-255.jpg?w=740",
+      "price": 300
+    },
+    {
+      "name": "Bowl with almond ",
+      "img": "https://img.freepik.com/free-photo/bowl-with-almond-white-background-top-view_1150-37662.jpg?w=740",
+      "price": 700
+    },
+    {
+      "name": "Raisins",
+      "img": "https://img.freepik.com/free-photo/top-view-assortment-dried-fruits-black-yellow-raisins_141793-9369.jpg?w=740",
+      "price": 1000
+    },
+    {
+      "name": "Nuts",
+      "img": "https://img.freepik.com/free-photo/fresh-peanuts-white_144627-16020.jpg?w=740",
+      "price": 200
+    },
+    {
+      "name": "Cashew Nuts",
+      "img": "https://img.freepik.com/free-photo/cashew-nuts-isolated-white_1401-472.jpg?w=740",
+      "price": 600
+    },
+    {
+      "name": "Dates",
+      "img": "https://img.freepik.com/free-photo/dried-date-palm-isolated-white-clipping-path_26628-356.jpg?w=826",
+      "price": 800
+    },
+    {
+      "name": "Chickpea",
+      "img": "https://img.freepik.com/free-photo/closeup-chickpeas-legumes_53876-23107.jpg?w=740",
+      "price": 90
+    },
+    {
+        "name": "Wal Nuts",
+        "img": "https://img.freepik.com/free-photo/fresh-walnut_144627-16134.jpg?w=740",
+        "price": 600
+      },
+      {
+        "name": "pistachio nuts",
+        "img": "https://img.freepik.com/free-photo/pile-pistachios_1308-41523.jpg?w=740",
+        "price": 800
+      },
+      {
+        "name": "Raisins",
+        "img": "https://img.freepik.com/free-photo/top-view-assortment-dried-fruits-black-yellow-raisins_141793-9369.jpg?w=740",
+        "price": 1000
+      }, {
+        "name": "Koral Fish",
+        "img": "https://img.freepik.com/free-photo/fresh-bass-with-white-background_1203-1781.jpg?w=740",
+        "price": 400
+      },
+      {
+        "name": "Rui Fish",
+        "img": "https://as1.ftcdn.net/v2/jpg/02/50/25/38/1000_F_250253801_2XuMkmXVWHjZi0CORsPwYjtmrN5ysejk.jpg",
+        "price": 300
+      },
+      {
+        "name": "Red Koral",
+        "img": "https://img.freepik.com/free-photo/fresh-fish_1203-6771.jpg?w=740",
+        "price": 400
+      },
+      {
+        "name": "Katol Fish",
+        "img": "https://as2.ftcdn.net/v2/jpg/02/81/92/15/1000_F_281921537_YHyJh3k01bAEo3X7c27MLfwz1vNcMyAk.jpg",
+        "price": 600
+      },
+      {
+        "name": "Telapoa Fish",
+        "img": "https://www.feednavigator.com/var/wrbm_gb_food_pharma/storage/images/9/7/4/2/1972479-1-eng-GB/Is-tilapia-Brazil-s-secret-weapon-in-aquaculture-growth-strategy.jpg",
+        "price": 200
+      },
+      {
+        "name": "Ilish Fish",
+        "img": "https://www.bazarmama.xyz/wp-content/uploads/2021/05/689F33FD.png",
+        "price": 900
+      },
+      {
+          "name": "Boal Fish",
+          "img": "https://1.bp.blogspot.com/-PlZXJvMjVWs/UBYZKCDKpmI/AAAAAAAAAlY/47_SX59AIeg/s600/Boal+Fish.jpg",
+          "price": 600
+        },
+        {
+          "name": "Rupchada Fish ",
+          "img": "https://5.imimg.com/data5/RI/TJ/AX/SELLER-43498857/roopchanda-fish-seed-500x500.jpg",
+          "price": 800
+        },
+        {
+          "name": "Green Apple",
+          "img": "https://img.freepik.com/free-photo/green-apple-with-leaves_1101-453.jpg?w=740",
+          "price": 400
+        },
+        {
+          "name": "Red Apple",
+          "img": "https://img.freepik.com/free-photo/red-apple-with-green-leaf-white-background_1232-3290.jpg?2&w=740",
+          "price": 300
+        },
+        {
+          "name": "Orange",
+          "img": "https://img.freepik.com/free-photo/sliced-whole-oranges_144627-3981.jpg?w=740",
+          "price": 400
+        },
+        {
+          "name": "Grapes",
+          "img": "https://img.freepik.com/free-photo/grapes-white-background_38145-85.jpg?w=740",
+          "price": 600
+        },
+        {
+          "name": "Pomegranate",
+          "img": "https://img.freepik.com/free-photo/exotic-delicious-pomegranate-white-background_144627-12571.jpg?w=740",
+          "price": 800
+        },
+        {
+          "name": "Green Grapes",
+          "img": "https://img.freepik.com/free-photo/green-grapes_1203-7663.jpg?w=740",
+          "price": 500
+        },
+        {
+            "name": "Banana",
+            "img": "https://img.freepik.com/free-vector/vector-ripe-yellow-banana-bunch-isolated-white-background_1284-45456.jpg?w=740",
+            "price": 100
+          },
+          {
+            "name": "Water Lemon ",
+            "img": "https://img.freepik.com/free-photo/sweet-watermelon-isolated-white_253984-1614.jpg?w=740",
+            "price": 50
+          }
+      
+  ]

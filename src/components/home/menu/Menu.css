@@ -1,0 +1,23 @@
+.menu-link{
+    color:black;
+    margin-left: 5px;
+}
+.menu-btn{
+    background-color: rgba(0, 128, 0, 0.774);
+    border:rgba(0, 128, 0, 0.774);
+    color:#fff;
+    border-radius: 15px;
+}
+.menubar-section{
+    display:flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 640px) {
+    .menubar-section{
+        display:block;
+        justify-content: center;
+    }
+    .meanu-list{
+        margin-top: 10px;
+    }
+  }

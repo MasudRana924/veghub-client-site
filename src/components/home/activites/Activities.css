@@ -1,0 +1,107 @@
+.activities-card{
+    background-color: rgba(0, 128, 0, 0.856);
+    border:1px solid gainsboro;
+    color: white;
+    height:180px;
+}
+.activities-card-two{
+    background-color: rgba(0, 128, 0, 0.856);
+    border:1px solid gainsboro;
+    color: white;
+    height:180px;
+}
+.activities-card-three{
+    background-color: rgba(0, 128, 0, 0.856);
+    border:1px solid gainsboro;
+    color: white;
+    height:180px;
+}
+.shipping{
+    background-color: black;
+    margin-left: 160px;
+    margin-right: 100px;
+    border-radius: 50%;
+    height:80px;
+    width:80px;
+    position: relative;
+    margin-top: -40px;
+}
+
+.shipping-icon{
+    color:white;
+    font-size: 60px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+.dollar-icon{
+    color:white;
+    font-size: 60px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 640px) {
+    .activities-card{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+    }
+    .activities-card-two{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+        margin-top: 40px;
+    }
+    .activities-card-three{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+        margin-top: 40px;
+    }
+    .shipping{
+        background-color: black;
+        margin-left: 220px;
+        margin-right: 100px;
+        border-radius: 50%;
+        height:80px;
+        width:80px;
+        position: relative;
+        margin-top: -40px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .activities-card{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+    }
+    .activities-card-two{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+        margin-top: 40px;
+    }
+    .activities-card-three{
+        background-color: rgba(0, 128, 0, 0.856);
+        border:1px solid gainsboro;
+        color: white;
+        height:200px;
+        margin-top: 40px;
+    }
+    .shipping{
+        background-color: black;
+         margin-left: 130px;
+       
+        border-radius: 50%;
+        height:80px;
+        width:80px;
+        position: relative;
+        margin-top: -40px;
+    }
+   
+   
+  }

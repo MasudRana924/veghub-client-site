@@ -1,0 +1,171 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.883);
+  
+}
+.insta-icon{
+    font-size: 30px;
+    color:rgb(182, 176, 176);
+}
+.fb-icon{
+    font-size: 30px;  
+    color:rgb(182, 176, 176);
+  
+}
+.youtube-icon{
+    font-size: 30px;
+    color:rgb(182, 176, 176);
+   
+}
+.google-icon{
+    color:rgb(182, 176, 176);
+    font-size: 30px;
+}
+.user-details p{
+    font-size: 12px;
+}
+.apple-icon{
+    color:white;
+}
+.play-icon{
+    color:rgba(0, 0, 255, 0.925);
+}
+.btn-app{
+    background-color:black;
+    border:black;
+    color:white;
+}
+.map-icon{
+    color:green;
+    font-size: 20px;
+}
+.mail-icon{
+    color:green;
+    font-size: 20px;
+}
+.join{
+    font-size: 14px;
+}
+.input-footer{
+    border:none;
+    outline-style: none;
+    margin-left: -70px;  
+}
+.input-btn{
+    background-color: green;
+    border:green;
+    color: #fff;
+}
+.footer-icon{
+    margin-left: -230px;
+}
+.google-apple{
+    margin-left: 80px;
+}
+.top-btn{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    color:white;
+}
+.chat-icon{
+    color:white;
+    font-size: 30px;
+    margin-top: 3px;
+}
+.text-icon{
+    color:#fff;
+    font-size: 30px;
+   padding-top: 5px;
+
+}
+.chat-btn{
+    position: fixed;
+    background-color: orangered;
+    border:1px solid orangered;
+    bottom: 10%;
+    right: 3%;
+    border-radius: 15px; 
+}
+.chat-section{
+    height:400px;
+    margin-right: 10px;
+    margin-top: 230px;
+  
+}
+.chat-header{
+    background-color: orangered;
+    height:10px;
+    color:white;
+}
+.chat-form input{
+   width:100%;
+   margin-top: 5px;
+   font-size: 18px;
+   color:black;
+}
+.chat-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    resize: none;
+    margin-top: 5px;
+  }
+  .message-field{
+      height:150px;
+  }
+  .send-btn{
+      background-color: orangered;
+      border:1px solid orangered;
+      border-radius: 15px;
+      margin-top: 20px;
+  }
+@media only screen and (max-width: 640px) {
+    .top-btn{
+        background-color: green;
+        border: 1px solid green;
+        border-radius: 10px;
+        color:white;
+        margin-top: 20px;
+    }
+    .google-apple{
+        margin-left: -260px;
+        margin-top:20px;
+    }
+    .user-details {
+        margin-left: 0px;
+    }
+    .footer-icon{
+        margin-left: -355px;
+    }
+    .input-footer{
+        border:none;
+        outline-style: none;
+        margin-left: -190px;  
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    
+    .google-apple{
+        margin-left: -70px;
+        margin-top:20px;
+    }
+   
+    .footer-icon{
+        margin-left: -165px;
+    }
+    .input-footer{
+        border:none;
+        outline-style: none;
+        margin-left: -5px;  
+    }
+    .chat-btn{
+        
+        display: none;
+    }
+    
+   }

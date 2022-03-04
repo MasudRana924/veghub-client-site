@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Koral Fish",
+      "img": "https://img.freepik.com/free-photo/fresh-bass-with-white-background_1203-1781.jpg?w=740",
+      "price": 400
+    },
+    {
+      "name": "Rui Fish",
+      "img": "https://as1.ftcdn.net/v2/jpg/02/50/25/38/1000_F_250253801_2XuMkmXVWHjZi0CORsPwYjtmrN5ysejk.jpg",
+      "price": 300
+    },
+    {
+      "name": "Red Koral",
+      "img": "https://img.freepik.com/free-photo/fresh-fish_1203-6771.jpg?w=740",
+      "price": 400
+    },
+    {
+      "name": "Katol Fish",
+      "img": "https://as2.ftcdn.net/v2/jpg/02/81/92/15/1000_F_281921537_YHyJh3k01bAEo3X7c27MLfwz1vNcMyAk.jpg",
+      "price": 600
+    },
+    {
+      "name": "Telapoa Fish",
+      "img": "https://www.feednavigator.com/var/wrbm_gb_food_pharma/storage/images/9/7/4/2/1972479-1-eng-GB/Is-tilapia-Brazil-s-secret-weapon-in-aquaculture-growth-strategy.jpg",
+      "price": 200
+    },
+    {
+      "name": "Ilish Fish",
+      "img": "https://www.bazarmama.xyz/wp-content/uploads/2021/05/689F33FD.png",
+      "price": 900
+    },
+    {
+        "name": "Boal Fish",
+        "img": "https://1.bp.blogspot.com/-PlZXJvMjVWs/UBYZKCDKpmI/AAAAAAAAAlY/47_SX59AIeg/s600/Boal+Fish.jpg",
+        "price": 600
+      },
+      {
+        "name": "Rupchada Fish ",
+        "img": "https://5.imimg.com/data5/RI/TJ/AX/SELLER-43498857/roopchanda-fish-seed-500x500.jpg",
+        "price": 800
+      }
+      
+      
+  ]

@@ -1,0 +1,15 @@
+.admin-panel{
+    border-right: 1px solid gainsboro;
+}
+.dashboard{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+.logOut-btn{
+    background-color: red;
+    border:red;
+    width:100%;
+    border-radius: 30px;
+    color:white;
+    margin-top: 20px;
+}

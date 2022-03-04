@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Green Apple",
+      "img": "https://img.freepik.com/free-photo/green-apple-with-leaves_1101-453.jpg?w=740",
+      "price": 400
+    },
+    {
+      "name": "Red Apple",
+      "img": "https://img.freepik.com/free-photo/red-apple-with-green-leaf-white-background_1232-3290.jpg?2&w=740",
+      "price": 300
+    },
+    {
+      "name": "Orange",
+      "img": "https://img.freepik.com/free-photo/sliced-whole-oranges_144627-3981.jpg?w=740",
+      "price": 400
+    },
+    {
+      "name": "Grapes",
+      "img": "https://img.freepik.com/free-photo/grapes-white-background_38145-85.jpg?w=740",
+      "price": 600
+    },
+    {
+      "name": "Pomegranate",
+      "img": "https://img.freepik.com/free-photo/exotic-delicious-pomegranate-white-background_144627-12571.jpg?w=740",
+      "price": 800
+    },
+    {
+      "name": "Green Grapes",
+      "img": "https://img.freepik.com/free-photo/green-grapes_1203-7663.jpg?w=740",
+      "price": 500
+    },
+    {
+        "name": "Banana",
+        "img": "https://img.freepik.com/free-vector/vector-ripe-yellow-banana-bunch-isolated-white-background_1284-45456.jpg?w=740",
+        "price": 100
+      },
+      {
+        "name": "Water Lemon ",
+        "img": "https://img.freepik.com/free-photo/sweet-watermelon-isolated-white_253984-1614.jpg?w=740",
+        "price": 50
+      }
+      
+      
+  ]
