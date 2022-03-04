@@ -24,8 +24,8 @@ const Carts = (props) => {
         <>
             <div className="cart-card d-flex mt-3 me-3">
                 <div className="w-25 mx-auto ">
-                    <img src={`data:image/png;base64,${img}`} className="cart-image" alt="" />
-
+                    {/* <img src={`data:image/png;base64,${img}`} className="cart-image" alt="" /> */}
+                    <img src={img} className="cart-image" alt="" />
                 </div>
                 <div className="w-75 mx-auto">
                     <div className="price-rating ">

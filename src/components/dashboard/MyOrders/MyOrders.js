@@ -45,6 +45,7 @@ const MyOrders = () => {
                         <thead>
                             <tr>
 
+                                
                                 <th>Name</th>
                                 <th>Price</th>
                                 <th>Status</th>
@@ -60,6 +61,7 @@ const MyOrders = () => {
                             :
                                 orders.map(order =>
                                     <tr >
+                                        
                                         <td >{order.info[0].name}</td>
                                         <td>{order.info[0].price}</td>
                                       

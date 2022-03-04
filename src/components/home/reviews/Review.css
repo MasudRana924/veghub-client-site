@@ -25,7 +25,8 @@
 }
 .review-image{
     height:160px;  
-    width:100%; 
+    border:1px solid #fff;
+    border-radius: 50%;
 }
 .review-text{
     font-size: 12px;
@@ -37,7 +38,7 @@
     display:block;
     margin-top:10px;
     padding:5px;
-    border :1px solid rgba(0, 128, 0, 0.781);
+    
     border-radius: 5px;
     width:100%;
 }

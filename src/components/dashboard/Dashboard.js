@@ -16,7 +16,7 @@ const Dashboard = () => {
                     <Link to="myorders" className="text-decoration-none">
                         <h6 className="text-start">My Orders</h6>
                     </Link>
-                    <Link to="review" className="text-decoration-none">
+                    <Link to="myreview" className="text-decoration-none">
                         <h6 className="text-start">Review</h6>
                     </Link>
 
@@ -29,9 +29,9 @@ const Dashboard = () => {
                             <Link to={`/dashboard/manageproduct`}className="text-decoration-none">
                                 <h6 className="text-start">Manage Products</h6>
                             </Link>
-                            <Link to={`/dashboard/updateproduct`}className="text-decoration-none">
+                            {/* <Link to={`/dashboard/updateproduct`}className="text-decoration-none">
                                 <h6 className="text-start">Update Products</h6>
-                            </Link>
+                            </Link> */}
                             <Link to={`/dashboard/manageorders`} className="text-decoration-none">
                                 <h6 className="text-start">Manage Orders</h6>
                             </Link>

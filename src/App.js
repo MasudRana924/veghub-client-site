@@ -20,13 +20,14 @@ import CheckOut from './components/home/checkout/CheckOut';
 import Dashboard from './components/dashboard/Dashboard';
 import MyOrders from './components/dashboard/MyOrders/MyOrders';
 import MakeAdmin from './components/dashboard/makeadmin/MakeAdmin';
-import AddProducts from './components/dashboard/addproducts/AddProducts';
 import ManageProducts from './components/dashboard/manageproducts/ManageProducts';
 import PrivateRoute from './privateroute/PrivateRoute';
 import AdminRoute from './privateroute/AdminRoute';
 import DashboaredHome from './components/dashboard/dashboardhome/DashboaredHome';
 import ManageOrders from './components/dashboard/manageorders/ManageOrders';
-import Reviews from './components/home/reviews/Reviews';
+import MyReview from './components/dashboard/myreviews/MyReview';
+import UpdateProduct from './components/dashboard/updateproduct/UpdateProduct';
+import AddProduct from './components/dashboard/addproduct/AddProduct';
 
 function App() {
   return (
@@ -70,25 +71,35 @@ function App() {
               </Route>
 
               <Route path="myorders" element={<MyOrders />}></Route>
-              <Route path="review" element={<Reviews />}></Route>
+              <Route path="myreview" element={<MyReview />}></Route>
+
               <Route path={`/dashboard/makeAdmin`} element={<AdminRoute>
                 <MakeAdmin></MakeAdmin>
               </AdminRoute>}>
               </Route>
+
               <Route path={`/dashboard/addproduct`} element={<AdminRoute>
-                <AddProducts></AddProducts>
+                <AddProduct></AddProduct>
               </AdminRoute>}>
               </Route>
+
               <Route path={`/dashboard/manageproduct`} element={<AdminRoute>
-               <ManageProducts></ManageProducts>
+                <ManageProducts></ManageProducts>
               </AdminRoute>}>
               </Route>
+
+              <Route path={`/dashboard/manageproduct/:productId`} element={<AdminRoute>
+               <UpdateProduct></UpdateProduct>
+              </AdminRoute>}>
+              </Route>
+
               <Route path={`/dashboard/manageorders`} element={<AdminRoute>
-              <ManageOrders></ManageOrders>
+                <ManageOrders></ManageOrders>
               </AdminRoute>}>
               </Route>
-              
-             
+
+
+
 
             </Route>
 

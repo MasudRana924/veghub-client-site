@@ -32,7 +32,8 @@ const All = (props) => {
     return (
         <Col className="mt-3">
             <div className="product-card">
-                <img src={`data:image/png;base64,${img}`}alt="" className="card-img" />
+                {/* <img src={`data:image/png;base64,${img}`}alt="" className="card-img" /> */}
+                <img src={img}alt="" className="card-img" />
                 <div className="cart-heart w-50 mx-auto">
                     <div className="cart-style">
                         <div className="cart-div">
