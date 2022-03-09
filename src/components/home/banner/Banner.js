@@ -11,13 +11,13 @@ const Banner = () => {
                 <Col md={4} >
                     <div className="mt-5 pt-5">
                         
-                        <h4 className="text-start text-dark fw-bold mt-3">Vegetable 100% Organic</h4>
-                        <p className="text-dark text-start">Free Pickup and Delivery Available</p>
+                        <h4 className="banner-head">Vegetable 100% Organic</h4>
+                        <p className="banner-text">Free Pickup and Delivery Available</p>
                         <Nav.Link as={HashLink} to="/home#menu">
                             <button className="banner-btn">Our Menu</button> </Nav.Link>
                     </div>
                 </Col>
-                <Col md={8}>
+                <Col md={8} xs="10">
                     <img src={banner} className="banner-image" alt="" />
                 </Col>
             </Row>

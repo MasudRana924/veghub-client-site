@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container,Row,Col } from 'react-bootstrap';
 import './Review.css'
 import "bootstrap/dist/css/bootstrap.css";
 import "slick-carousel/slick/slick.css";
@@ -57,12 +57,12 @@ const Reviews = () => {
     };
 
     return (
-        <Container className="mt-5 pt-5">
+        <Container fluid className=" mt-5 pt-5">
             <h3 className="text-dark text-center fw-bold">Our Customer's Feedback </h3>
-            {/* <Row xs="1" md="2" className="mt-5">
+            <Row xs="1" md="1" className="mt-5">
                 
 
-                <Col xs="12" md="7" className="review mt-3">
+                <Col xs="12" md="12" className="w-75 mx-auto review mt-3">
                     <Slider {...Rsettings}>
                         {
                             reviews.map(review => (
@@ -77,8 +77,8 @@ const Reviews = () => {
 
                     </Slider>
                 </Col>
-            </Row> */}
-            <div className="mt-5 ">
+            </Row>
+            {/* <div className="mt-5 ">
                 <Slider {...Rsettings}>
                     {
                         reviews.map(review => (
@@ -92,7 +92,7 @@ const Reviews = () => {
                     }
 
                 </Slider>
-            </div>
+            </div> */}
 
         </Container>
     );

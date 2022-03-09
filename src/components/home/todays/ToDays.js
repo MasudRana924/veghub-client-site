@@ -8,8 +8,6 @@ const ToDays = () => {
         <Container fluid className="mt-5 pt-5">
             <h4 className="text-center fw-bold">Pick's ToDay</h4>
            <Alls></Alls>
-    
-
     </Container>
     );
 };

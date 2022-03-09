@@ -45,7 +45,7 @@ const Dashboard = () => {
 
 
                 </Col>
-                <Col md="9">
+                <Col md="9" className="mt-3" >
                 <Outlet></Outlet>
                 </Col>
             </Row>

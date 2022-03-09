@@ -43,7 +43,7 @@
     font-size: 20px;
 }
 .join{
-    font-size: 14px;
+    font-size: 12px;
 }
 .input-footer{
     border:none;
@@ -124,6 +124,13 @@
       border-radius: 15px;
       margin-top: 20px;
   }
+  .footer-section{
+      display: none;
+  }
+  .copyright-text{
+      font-weight: 600;
+      font-size: 11px;
+  }
 @media only screen and (max-width: 640px) {
     .top-btn{
         background-color: green;
@@ -148,23 +155,56 @@
         margin-left: -190px;  
     }
   }
-  @media only screen and (max-width: 440px) {
-    
+  @media only screen and (max-width: 400px) {
+    .footer-header{
+        width:100%;
+        overflow-x: hidden;
+    }
     .google-apple{
-        margin-left: -90px;
+        margin-left: -50px;
         margin-top:20px;
     }
    
     .footer-icon{
-        margin-left: -200px;
+        margin-left: -170px;
     }
     .input-footer{
         border:none;
         outline-style: none;
-        margin-left: -35px;  
+        margin-left: -5px;  
     }
     .chat-btn{
         display: none;
     }
+    .user-details , .contact-details{
+        margin-left: 5px;
+    }
+
+
+
+    .footer-section{
+        height:120px;   
+        display: block;
+       
+        position: fixed;
+        bottom: -15%;
+        left:0%;
+        background-color: black;
+        width: 100%;
+        
+    }
+    .home-icon {
+        color:white;
+        font-size: 16px;
+    }
+    .footer-text{
+        color:gainsboro;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .toogle-header{
+        font-size: 10px;
+    }
+    
     
    }

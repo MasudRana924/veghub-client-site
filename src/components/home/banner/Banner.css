@@ -6,7 +6,16 @@
    background-color: white;
     color:white;
 }
-
+.banner-head{
+    text-align: start;
+    font-weight: bold;
+    color:black;
+}
+.banner-text{
+    text-align: start;
+    font-weight: 700;
+    color:black; 
+}
 .banner-btn{
     background-color: rgba(0, 128, 0, 0.883);
     border:#FE5F41;
@@ -14,18 +23,18 @@
    margin-left:-320px;
 }
 @media only screen and (max-width: 640px) {
-    .banner-btn{
+    /* .banner-btn{
         background-color: rgba(0, 128, 0, 0.883);
         border:#FE5F41;
         color:#fff;
        margin-left:-430px;
-    } 
+    }  */
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 400px) {
     .banner-btn{
         background-color: rgba(0, 128, 0, 0.883);
         border:#FE5F41;
         color:#fff;
-        margin-left:-280px;
+        margin-left:-260px;
     } 
 }

@@ -7,7 +7,7 @@ const Alls = () => {
 
     const { displayProducts } = useAuth()
     return (
-        <Container>
+        <Container fluid className="">
             <Row xs="2" md="4">
                 {displayProducts.length === 0 ? < div className="w-25 mx-auto spinner"> <Spinner animation="border" className="spinner" />
                 </div>

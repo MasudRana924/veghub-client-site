@@ -8,14 +8,14 @@ import './Offer.css'
 const Offer = () => {
    
     return (
-       <Container fluid className=" mx-auto mt-5 pt-5">
+       <Container fluid  className=" mx-auto mt-5 pt-5">
                  <Row xs="1" md="2">
-                     <Col  className="mt-3">
+                     <Col xs="12" className="mt-3">
                      <div  className="offer-card">
                          <img src={img1} className="img-offer" alt="" />
                      </div>
                      </Col>
-                     <Col className="mt-3">
+                     <Col xs="12" className="mt-3">
                      <div className="offer-card"  >
                          <img src={img2}className="img-offer" alt="" />
                      </div>

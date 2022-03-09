@@ -19,7 +19,7 @@ const DashboaredHome = () => {
     return (
         <Container fluid >
             <Row xs={1} md={3}>
-                <Col className="">
+                <Col className="mt-3">
                     <div className="sort">
                         <p className="sort-icon pt-3">{sort}</p>
                         <Link to="myorders" className="text-decoration-none">
@@ -27,7 +27,7 @@ const DashboaredHome = () => {
                         </Link>
                     </div>
                 </Col>
-                <Col className="review">
+                <Col className="review mt-3">
                     <div className="pen">
                         <p className="pen-icon pt-3">{pen}</p>
                         <Link to="" className="text-decoration-none">
@@ -36,7 +36,7 @@ const DashboaredHome = () => {
                     </div>
                 </Col>
                 {
-                    admin && <Col className="">
+                    admin && <Col className="mt-3">
                         <div className="plus">
                             <p className="plus-icon pt-3">{plus}</p>
                             <Link to={`/dashboard/addproduct`} className="text-decoration-none">

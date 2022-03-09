@@ -6,7 +6,7 @@ import './Menu.css'
 const Menu = () => {
     return (
         <div id="menu">
-            <Container fluid className="">
+            <Container fluid  className="">
                 <Row xs={1} md={3} className="mb-5">
                     <Col md={2}></Col>
                     <Col xs={12} md={8}>

@@ -12,7 +12,7 @@ const Recommonded = () => {
    
 
     return (
-        <Container className="mt-5 pt-5 pb-5">
+        <Container fluid className=" mt-5 pt-5 pb-5">
             
             <Row xs="1" md="3">
                 <Col className="mt-1">

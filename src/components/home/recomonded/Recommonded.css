@@ -24,3 +24,18 @@
      height:60px;
      color:white;
 }
+.button-add-heart{
+    font-size: 16px;
+    color:white;
+    width:60px;
+    background-color:#FFC300  ;
+    border:1px solid #FFC300  ;
+}
+.button-add-cart{
+    font-size: 16px;
+    color:white;
+    width:60px;
+    margin-left: 10px;
+    background-color:SpringGreen;
+    border:1px solid SpringGreen;
+}
