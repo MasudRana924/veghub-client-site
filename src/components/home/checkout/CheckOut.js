@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import './CheckOut.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCcPaypal, faCcVisa, faCcMastercard } from '@fortawesome/free-brands-svg-icons'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 import useAuth from './../../../hooks/useAuth';
 import { clearTheCart} from '../../../hooks/fakeDB';
@@ -15,7 +15,7 @@ const CheckOut = () => {
     const pay = <FontAwesomeIcon icon={faCcPaypal} className="pay-icon" />
     const visa = <FontAwesomeIcon icon={faCcVisa} className="visa-icon" />
     const master = <FontAwesomeIcon icon={faCcMastercard} className="master-icon" />
-
+    const navigate = useNavigate()
     const onSubmit = data => {
         data.info= cart
         data.status='pending'
@@ -35,9 +35,11 @@ const CheckOut = () => {
                         icon: "success",
                         button: "Ok",
                     }); 
+                   
                     window.location.reload();
                     clearTheCart()
-                    reset()   
+                    reset() 
+                     
                         
                 }
             })

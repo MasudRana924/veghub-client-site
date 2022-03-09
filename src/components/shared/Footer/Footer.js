@@ -5,6 +5,7 @@ import { faFacebook, faGoogle, faInstagram, faYoutube, faApple, faGooglePlay, fa
 import { faMapMarkerAlt, faEnvelope, faComment, faHome, faSignInAlt, faUserAlt } from '@fortawesome/free-solid-svg-icons'
 import './Footer.css'
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 
 
@@ -81,30 +82,30 @@ const Footer = () => {
             <Container fluid className="footer-section">
                 <Row xs="4" >
                     <Col>
-                        <Nav.Link href="/">
+                        <Link to="/" className="text-decoration-none">
                             <span>{home}</span>
                             <p className="footer-text">Home</p>
-                        </Nav.Link>
+                        </Link>
                     </Col>
                     <Col>
-                        <Nav.Link href="/signup">
+                        <Link to="/signup" className="text-decoration-none">
                             <span>{signin}</span>
                             <p className="footer-text">SignUp</p>
-                        </Nav.Link>
+                        </Link>
                     </Col>
                     <Col>
 
-                        <Nav.Link href="/login">
+                        <Link to="/login" className="text-decoration-none">
                             <span>{signin}</span>
 
                             <p className="footer-text">Login</p>
-                        </Nav.Link>
+                        </Link>
                     </Col>
                     <Col>
-                    <Nav.Link href="/dashboard">
+                    <Link to="/dashboard" className="text-decoration-none">
                         <span>{usericon}</span>
                         <p className="footer-text" >Account</p>
-                        </Nav.Link>
+                        </Link>
                     </Col>
                 </Row>
 

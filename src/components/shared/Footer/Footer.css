@@ -124,9 +124,7 @@
       border-radius: 15px;
       margin-top: 20px;
   }
-  .footer-section{
-      display: none;
-  }
+ 
   .copyright-text{
       font-weight: 600;
       font-size: 11px;
@@ -155,6 +153,14 @@
         margin-left: -190px;  
     }
   }
+  @media only screen and (min-width: 640px) {
+    .footer-section{
+        display: none;
+    }
+  }
+  
+  
+  
   @media only screen and (max-width: 400px) {
     .footer-header{
         width:100%;
@@ -184,10 +190,10 @@
 
     .footer-section{
         height:120px;   
-        display: block;
+        /* display: block; */
        
         position: fixed;
-        bottom: -10%;
+        bottom: -12%;
         left:0%;
         background-color: black;
         width: 100%;

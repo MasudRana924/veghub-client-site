@@ -6,6 +6,7 @@ import { faHeart, faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import useAuth from './../../../../hooks/useAuth';
 import { addToDb } from '../../../../hooks/fakeDB';
 
+
 const All = (props) => {
     const { name, img, price } = props.product
     const heart = <FontAwesomeIcon icon={faHeart} className="cart-icon" />
@@ -26,7 +27,9 @@ const All = (props) => {
         setCart(newCart);
         // save to local storage (for now)
         addToDb(props.product._id);
-        console.log(products)
+      alert('item added to cart')
+      
+
 
     }
     return (
@@ -41,7 +44,7 @@ const All = (props) => {
                     <button className="btn-add-cart" onClick={handleAddToCart}>{Cart} </button>
                 </div>
             </div>
-
+           
         </Col>
     );
 };
