@@ -98,4 +98,13 @@
         width:100%;
         margin-left: 30px;
     }
+    .shipping-form textarea{
+        display:block;
+        margin-top:30px;
+        padding:5px;
+        border :1px solid gray;
+        border-radius: 5px;
+        width:300px;
+        margin-left: 30px;
+    }
    }

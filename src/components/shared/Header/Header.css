@@ -123,9 +123,9 @@ justify-content: space-between;
     position:sticky;
 }
 .logo-image{
-    height:60px;
+    height:50px;
     margin-top: 10px;
-   width:120px;
+   width:160px;
 }
 .search-btn{
     height:40px;
@@ -153,6 +153,30 @@ justify-content: space-between;
 .dropdown:hover .dropdown-content {
     display: block;
     margin-left: 5px;
+  }
+  .bar-btn{
+    height:40px;
+    margin-top: 10px;
+    border:none;
+    background-color: #ffffff;
+   margin-left: 50px;
+  }
+  .nav-header{
+      height:10px;
+     
+  }
+  .nav-text{
+      text-decoration: none;
+      font-size: 16px;
+      color:black;
+      font-weight: 400;
+      margin-top: -30px;
+     margin-left: -20px;
+  }
+  .btn-signOut{
+      background-color: #fff;
+      border:none;
+      font-size: 16px;
   }
 
  }

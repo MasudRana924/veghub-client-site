@@ -62,6 +62,8 @@ function App() {
               <CheckOut />
             </PrivateRoute>}>
             </Route>
+            <Route path="/getmyorders" element={<MyOrders />}></Route>
+            <Route path="/postreview" element={<MyReview />}></Route>
 
             <Route path="/dashboard" element={<PrivateRoute>
               <Dashboard />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 import { useForm } from 'react-hook-form';
+import './MyReview.css'
 
 
 const MyReview = () => {
@@ -28,7 +29,7 @@ const MyReview = () => {
         <Container fluid className="mt-5">
 
             <div className="">
-                <form className="shipping-form " onSubmit={handleSubmit(onSubmit)}>
+                <form className="review-form " onSubmit={handleSubmit(onSubmit)}>
 
                     <input defaultValue={user.displayName} {...register("name")} placeholder="your name" />
                     <input defaultValue={user.email} {...register("email", { required: true })} />

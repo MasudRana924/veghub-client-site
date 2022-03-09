@@ -1,0 +1,52 @@
+.review-form{
+    margin:30px 100px;
+}
+.confirm{
+    margin-top: 100px;
+    
+}
+.review-form input{
+    display:block;
+    margin-top:30px;
+    padding:5px;
+    border :1px solid gray;
+    border-radius: 5px;
+    width:400px;
+}
+.review-form textarea{
+    display:block;
+    margin-top:30px;
+    padding:5px;
+    border :1px solid gray;
+    border-radius: 5px;
+    width:400px;
+}
+@media only screen and (max-width: 400px) {
+    .contact-info{
+        margin-left: 100px;
+    }
+    .order-section{
+        width:100%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+   
+    .review-form input{
+        display:block;
+        margin-top:10px;
+        padding:5px;
+        border :1px solid gray;
+        border-radius: 5px;
+        width:300px;
+        margin-left: -80px;
+    }
+    .review-form textarea{
+        display:block;
+        margin-top:30px;
+        padding:5px;
+        border :1px solid gray;
+        border-radius: 5px;
+        width:300px;
+        margin-left: -80px;
+    }
+   }
