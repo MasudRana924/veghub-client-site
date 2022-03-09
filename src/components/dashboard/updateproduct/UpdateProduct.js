@@ -6,7 +6,7 @@ const UpdateProduct = () => {
     const { productId } = useParams()
     const [product, setProduct] = useState({})
     useEffect(() => {
-        fetch(`http://localhost:5000/product/${productId}`)
+        fetch(`https://obscure-badlands-58635.herokuapp.com/product/${productId}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)
@@ -24,7 +24,7 @@ const UpdateProduct = () => {
         const img = imgRef.current.value
 
         const updateproduct = { price, name, img, }
-        const url = `http://localhost:5000/updateproduct/${productId}`
+        const url = `https://obscure-badlands-58635.herokuapp.com/updateproduct/${productId}`
         fetch(url, {
             method: 'PUT',
             headers: {

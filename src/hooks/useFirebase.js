@@ -9,7 +9,7 @@ const useFirebase = () => {
     const [products, setProducts] = useState([])
     const [displayProducts, setDisplayProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/allproducts')
+        fetch('https://obscure-badlands-58635.herokuapp.com/allproducts')
             .then(res => res.json())
             .then(data => {
                 setProducts(data)
@@ -18,7 +18,7 @@ const useFirebase = () => {
     }, [])
     const [meats, setMeats] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/meats')
+        fetch('https://obscure-badlands-58635.herokuapp.com/meats')
             .then(res => res.json())
             .then(data => {
                 setMeats(data) 
@@ -26,7 +26,7 @@ const useFirebase = () => {
     }, [])
     const [fishes, setFishes] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/fishes')
+        fetch('https://obscure-badlands-58635.herokuapp.com/fishes')
             .then(res => res.json())
             .then(data => {
                 setFishes(data) 
@@ -34,7 +34,7 @@ const useFirebase = () => {
     }, [])
     const [fruits, setFruits] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/fruits')
+        fetch('https://obscure-badlands-58635.herokuapp.com/fruits')
             .then(res => res.json())
             .then(data => {
                 setFruits(data) 
@@ -42,7 +42,7 @@ const useFirebase = () => {
     }, [])
     const [dryFoods, setDryFoods] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/dryfoods')
+        fetch('https://obscure-badlands-58635.herokuapp.com/dryfoods')
             .then(res => res.json())
             .then(data => {
                 setDryFoods(data) 
@@ -197,7 +197,7 @@ const useFirebase = () => {
         return unsubscribed
     }, [])
     useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
+        fetch(`https://obscure-badlands-58635.herokuapp.com/users/${user.email}`)
         .then(res=>res.json())
         .then(data=>{
             setAdmin(data.admin)

@@ -14,7 +14,7 @@ const AddProduct = () => {
         const img = imgRef.current.value
        
         const product = {  cost, name, img }
-        fetch('http://localhost:5000/addproduct', {
+        fetch('https://obscure-badlands-58635.herokuapp.com/addproduct', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

@@ -17,7 +17,7 @@ const AddProducts = () => {
         formData.append('price',price)
         formData.append('image', image)
 
-        fetch('http://localhost:5000/addproduct', {
+        fetch('https://obscure-badlands-58635.herokuapp.com/addproduct', {
             method: 'POST',
             body: formData
         })
