@@ -101,10 +101,10 @@ const Footer = () => {
                         </Nav.Link>
                     </Col>
                     <Col>
-
+                    <Nav.Link href="/dashboard">
                         <span>{usericon}</span>
                         <p className="footer-text" >Account</p>
-
+                        </Nav.Link>
                     </Col>
                 </Row>
 

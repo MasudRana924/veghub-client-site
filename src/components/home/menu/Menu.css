@@ -21,3 +21,13 @@
         margin-top: 10px;
     }
   }
+  @media only screen and (max-width: 400px) {
+    .menubar-section{
+        display:block;
+        justify-content: center;
+    }
+    .meanu-list{
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+  }
