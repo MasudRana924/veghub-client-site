@@ -45,9 +45,9 @@ const CheckOut = () => {
     return (
         <Container fluid className="mt-3">
             <Row xs={1} md={2}>
-                <Col xs={12}>
+                <Col xs={12} className="mt-1">
                     <div className="order-section">
-                        <h4 className="text-start contact-info">Contact Information</h4>
+                        <h4 className=" contact-info">Contact Information</h4>
                         <form className="shipping-form " onSubmit={handleSubmit(onSubmit)}>
 
                             <input defaultValue={user.displayName} {...register("name")} placeholder="your name" />
@@ -61,9 +61,9 @@ const CheckOut = () => {
                         </form>
                     </div>
                 </Col>
-                <Col>
+                <Col className="mt-3">
                     <div className="order-section">
-                        <h4 className="text-center me-5 contact-info">Payment</h4>
+                        <h4 className="payment-info">Payment</h4>
                         <Link to="/payment">
                             <button className="pay-btn mt-5">bKash</button>
                         </Link>

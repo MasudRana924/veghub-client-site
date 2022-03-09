@@ -1,6 +1,6 @@
 import React from 'react';
 import Carts from './Carts';
-import { Container} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
 import { removeFromDb } from '../../../hooks/fakeDB';
@@ -26,8 +26,8 @@ const Cart = () => {
     const grandTotal = total + shipping + tax;
     return (
         <Container fluid className="mt-3">
-            <div className="w-100 mx-auto d-flex">
-                <div className="w-50 mx-auto">
+            {/* <div className="w-100 mx-auto d-flex">
+                <div className="">
                     {
                         cart.map(product => <Carts
                             product={product}
@@ -54,8 +54,38 @@ const Cart = () => {
                        
                     </div>
                 </div>
-            </div>
-            
+            </div> */}
+            <Row xs="1" md="2">
+                <Col xs="12" className="mt-3">
+
+                    {
+                        cart.map(product => <Carts
+                            product={product}
+                            key={product._id}
+                            handleRemove={handleRemove}
+                        ></Carts>)
+                    }
+                </Col>
+                <Col xs="12" className="mt-3">
+                    <div className="cart-total">
+                        <h5>Order Summary</h5>
+                        <div >
+                            <p className="text-start ms-1">Total items ordered : {totalQuantity}</p>
+                            <p className="text-start ms-1">Total : {total.toFixed(2)}tk</p>
+                        </div>
+                        <div >
+                            <p className="text-start ms-1">Tax : {tax.toFixed(2)}tk</p>
+                            <p className="text-start ms-1">Shipping : {shipping.toFixed(2)}tk</p>
+                            <p className="text-start ms-1">GrandTotal : {grandTotal.toFixed(2)}tk</p>
+                        </div>
+                        <Link to="/checkout">
+                            <button className="checkOut-btn w-75 mx-auto">CheckOut</button>
+                        </Link>
+
+                    </div>
+
+                </Col>
+            </Row>
         </Container>
     );
 };
