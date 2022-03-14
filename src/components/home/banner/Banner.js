@@ -17,7 +17,7 @@ const Banner = () => {
                             <button className="banner-btn">Our Menu</button> </Nav.Link>
                     </div>
                 </Col>
-                <Col md={8} xs="10">
+                <Col md={8} xs="12">
                     <img src={banner} className="banner-image" alt="" />
                 </Col>
             </Row>

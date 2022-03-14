@@ -41,3 +41,9 @@
     border:white;
    background-color: ghostwhite;
 }
+@media only screen and (max-width: 400px) {
+  
+    .order-table{
+        margin-left: -20px;
+    }
+}

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Col, Container, Nav, Row, Offcanvas } from 'react-bootstrap';
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faCartPlus, faBars, faSearch, faSignOutAlt,faHome,faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faCartPlus, faBars, faSearch, faSignOutAlt, faHome, faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
@@ -36,7 +36,7 @@ const Header = () => {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    
+   
 
 
 
@@ -80,7 +80,7 @@ const Header = () => {
                                 <div className="dropdown">
 
                                     <button class="dropbtn">
-                                    {user.email} {arrow}
+                                        {user.email} {arrow}
                                     </button>
                                     <div className="dropdown-content">
                                         <Link to="/dashboard" className=" text-decoration-none">
@@ -124,22 +124,23 @@ const Header = () => {
             <Container fluid className="header-section" >
                 <Row className="header-section" xs="1">
                     <Col xs="12" className="d-flex">
-
-                        <img src={img} className="fluid logo-image" alt="" />
-
-                        <button className="search-btn" >
-                            {search}
-                        </button>
-                        <Link to="/cart">
-                            <button className=" cart-btn">
-                                {Cart} <span className="item-cart"> {totalQuantity}</span>
-                            </button>
-                        </Link>
-
                         <button className="bar-btn" onClick={handleShow}>
                             {bar}
                         </button>
-                        <Offcanvas placement="end" show={show} onHide={handleClose} className="w-50 mx-auto">
+                        <img src={img} className="fluid logo-image" alt="" />
+
+                        {/* <button className="search-btn">
+                            {search}
+                        </button> */}
+                        <Link to="/cart">
+                            <button className=" cart-btn">
+                                {Cart} 
+                            </button>
+                            <span className="item-cart"> {totalQuantity}</span>
+                        </Link>
+
+
+                        <Offcanvas placement="start" show={show} onHide={handleClose} className="w-50 mx-auto">
                             <Offcanvas.Header closeButton className="nav-header" >
                                 <Offcanvas.Title></Offcanvas.Title>
                             </Offcanvas.Header>
@@ -155,13 +156,13 @@ const Header = () => {
                                     </div>
                                         : <div>
                                             <Nav.Link href="/">
-                                            <p className="nav-text" onHide={handleClose}>{home} Home</p>
+                                                <p className="nav-text" onHide={handleClose}>{home} Home</p>
                                             </Nav.Link>
                                             <Nav.Link href="/signup" >
                                                 <p className="nav-text" onHide={handleClose}>{signout} SignUp</p>
                                             </Nav.Link>
                                             <Nav.Link href="/login">
-                                            <p className="nav-text" onHide={handleClose}>{signout} Login</p>
+                                                <p className="nav-text" onHide={handleClose}>{signout} Login</p>
                                             </Nav.Link>
                                         </div>
                                 }
@@ -194,8 +195,8 @@ const Header = () => {
                             </Offcanvas.Body>
                         </Offcanvas>
                     </Col>
-                    <div className="input-section">
-                        <input type="text" placeholder="search" onChange={handleSearch} />
+                    <div className="input-section" >
+                        <input type="text" placeholder="Search a product" onChange={handleSearch} />
                     </div>
                 </Row>
             </Container>

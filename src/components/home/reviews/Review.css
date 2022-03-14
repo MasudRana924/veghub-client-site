@@ -53,6 +53,13 @@
     .slick-prev:before, .slick-next:before {
         display: none;
     }
-   
+   .card-review{
+       width:100%;
+       height:250px;
+       /* margin: 25px  5px 5px 10px;   */
+   }
+   .review{
+       width:100%;
+   }
     
    }

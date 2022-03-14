@@ -41,12 +41,12 @@ const MyOrders = () => {
 
                 <Col xs={12} md={12}>
                     <h2 className="text-start text-primary dashboard">Orders-list</h2>
-                    <Table striped bordered hover variant="white">
+                    <Table striped bordered hover variant="white" className="order-table">
                         <thead>
                             <tr>
 
                                 
-                                <th>Name</th>
+                                <th className="table-head">Name</th>
                                 <th>Price</th>
                                 <th>Status</th>
                                 <th>Delete</th>

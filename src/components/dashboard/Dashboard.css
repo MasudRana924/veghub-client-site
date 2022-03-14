@@ -5,6 +5,9 @@
     border-bottom: 1px solid gainsboro;
     padding-bottom: 10px;
 }
+.dashboard-section{
+    margin-top: 80px;
+}
 .logOut-btn{
     background-color: red;
     border:red;

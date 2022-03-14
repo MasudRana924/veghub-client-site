@@ -7,7 +7,7 @@ import './Dashboard.css'
 const Dashboard = () => {
     const { admin, logOut } = useAuth()
     return (
-        <Container fluid className="mt-5 pt-5 pb-5">
+        <Container fluid className=" dashboard-section pb-5">
             <Row xs="1" md="2">
                 <Col md="3" className="admin-panel">
 

@@ -36,5 +36,9 @@
         border:#FE5F41;
         color:#fff;
         margin-left:-260px;
+        margin-top: -50px;
     } 
+    .banner-head{
+        margin-top: -70px;
+    }
 }

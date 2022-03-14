@@ -64,7 +64,7 @@ const Daily = () => {
                         dailys.map(daily => (
                             <div className="card-daily d-flex">
                                 <img src={daily.img} className="daily-img img-fluid me-1" alt="" />
-                                <div className="mt-5 pt-5 ms-3">
+                                <div className=" dily-card-desc  ms-3">
                                     <h6 clssName="">{daily.name}</h6>
                                     <p clssName=""> Price : {daily.price}tk</p>
                                     <button className="btn-cart">ADD CART</button>

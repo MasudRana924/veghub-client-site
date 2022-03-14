@@ -117,38 +117,59 @@ justify-content: space-between;
        margin-left: 0px;
    }
 
-.header-section{
+  .header-section{
     height:120px;   
-}
-.logo-image{
+   }
+   .logo-image{
     height:50px;
     margin-top: 10px;
    width:160px;
-}
-.search-btn{
+   margin-left: 70px;
+   }
+   .search-btn{
     height:40px;
     margin-top: 10px;
     border:none;
     background-color: #ffffff;
     margin-left: 10px;
-}
-.user-btn{
+   }
+   .input-section input{
+       width:100%;
+       border:2px solid limegreen;
+       outline-style: none;
+       border-radius: 5px;
+       padding-left: 20px;
+   }
+   .user-btn{
     height:40px;
     margin-top: 10px;
     border:none;
     background-color: #ffffff;
-}
-.cart-btn{
+   }
+   .cart-btn{
     height:40px;
     margin-top: 10px;
     border:none;
     background-color: #ffffff;
-    margin-left: 20px;
-}
-.header{
+    margin-left: 60px;
+    }
+    .item-cart{
+    position:absolute;
+    margin-left: -18px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-color:limegreen;
+    border-radius: 10px;
+    width:20px;
+    font-size: 12px;
+    margin-top: 4px;
+   
+   }
+  .header{
     display: none;
-}
-.dropdown:hover .dropdown-content {
+  }
+  .dropdown:hover .dropdown-content {
     display: block;
     margin-left: 5px;
   }
@@ -157,7 +178,7 @@ justify-content: space-between;
     margin-top: 10px;
     border:none;
     background-color: #ffffff;
-   margin-left: 50px;
+ 
   }
   .nav-header{
       height:10px;

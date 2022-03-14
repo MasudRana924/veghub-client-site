@@ -19,14 +19,14 @@
 .btn-add-heart{
     font-size: 16px;
     color:white;
-    width:60px;
+    width:80px;
     background-color:fuchsia;
     border:1px solid fuchsia;
 }
 .btn-add-cart{
     font-size: 16px;
     color:white;
-    width:60px;
+    width:80px;
     margin-left: 10px;
     background-color: LimeGreen;
     border:1px solid LimeGreen;
