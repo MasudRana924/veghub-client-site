@@ -33,10 +33,9 @@ const Header = () => {
     }
 
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-   
+    const [inputshow, setInputShow] = useState(false);
 
 
 
@@ -129,12 +128,12 @@ const Header = () => {
                         </button>
                         <img src={img} className="fluid logo-image" alt="" />
 
-                        {/* <button className="search-btn">
+                        <button className="search-btn" onClick={() => setInputShow(true)}>
                             {search}
-                        </button> */}
+                        </button>
                         <Link to="/cart">
                             <button className=" cart-btn">
-                                {Cart} 
+                                {Cart}
                             </button>
                             <span className="item-cart"> {totalQuantity}</span>
                         </Link>
@@ -147,7 +146,7 @@ const Header = () => {
                             <Offcanvas.Body className="mt-1">
                                 {
                                     user.email ? <div>
-                                        <Nav.Link href="getmyorders" >
+                                        <Nav.Link href="/dashboard" >
                                             <p className="nav-text " onHide={handleClose}>My Orders</p>
                                         </Nav.Link>
                                         <Nav.Link href="postreview">
@@ -195,9 +194,12 @@ const Header = () => {
                             </Offcanvas.Body>
                         </Offcanvas>
                     </Col>
-                    <div className="input-section" >
-                        <input type="text" placeholder="Search a product" onChange={handleSearch} />
-                    </div>
+                    {
+                        inputshow ? <div className="input-section" >
+                            <input type="text" placeholder="Search a product" onChange={handleSearch} />
+                        </div> : null
+                    }
+
                 </Row>
             </Container>
         </div >

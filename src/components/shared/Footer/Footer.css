@@ -172,7 +172,7 @@
     }
    
     .footer-icon{
-        margin-left: -150px;
+        margin-left: -140px;
     }
     .input-footer{
         border:none;
@@ -193,7 +193,7 @@
         /* display: block; */
        
         position: fixed;
-        bottom: -12%;
+        bottom: -10%;
         left:0%;
         background-color: black;
         width: 100%;
