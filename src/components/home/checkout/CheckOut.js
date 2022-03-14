@@ -35,9 +35,9 @@ const CheckOut = () => {
                         icon: "success",
                         button: "Ok",
                     }); 
-                   
-                    window.location.reload();
                     clearTheCart()
+                    window.location.reload();
+                    navigate('/')
                     reset() 
                      
                         

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAuth, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword, signOut, onAuthStateChanged, getIdToken } from "firebase/auth";
 import initializeAuthentication from './firebase.init';
 import { getStoredCart } from './fakeDB';
 
@@ -21,7 +21,7 @@ const useFirebase = () => {
         fetch('https://obscure-badlands-58635.herokuapp.com/meats')
             .then(res => res.json())
             .then(data => {
-                setMeats(data) 
+                setMeats(data)
             })
     }, [])
     const [fishes, setFishes] = useState([])
@@ -29,7 +29,7 @@ const useFirebase = () => {
         fetch('https://obscure-badlands-58635.herokuapp.com/fishes')
             .then(res => res.json())
             .then(data => {
-                setFishes(data) 
+                setFishes(data)
             })
     }, [])
     const [fruits, setFruits] = useState([])
@@ -37,7 +37,7 @@ const useFirebase = () => {
         fetch('https://obscure-badlands-58635.herokuapp.com/fruits')
             .then(res => res.json())
             .then(data => {
-                setFruits(data) 
+                setFruits(data)
             })
     }, [])
     const [dryFoods, setDryFoods] = useState([])
@@ -45,7 +45,7 @@ const useFirebase = () => {
         fetch('https://obscure-badlands-58635.herokuapp.com/dryfoods')
             .then(res => res.json())
             .then(data => {
-                setDryFoods(data) 
+                setDryFoods(data)
             })
     }, [])
 
@@ -189,6 +189,10 @@ const useFirebase = () => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user)
+                getIdToken(user)
+                    .then(idToken => {
+                        console.log(idToken)
+                    })
             } else {
                 setUser({})
             }
@@ -198,10 +202,10 @@ const useFirebase = () => {
     }, [])
     useEffect(() => {
         fetch(`https://obscure-badlands-58635.herokuapp.com/users/${user.email}`)
-        .then(res=>res.json())
-        .then(data=>{
-            setAdmin(data.admin)
-        })
+            .then(res => res.json())
+            .then(data => {
+                setAdmin(data.admin)
+            })
 
     }, [user.email])
     const logOut = () => {
@@ -218,7 +222,7 @@ const useFirebase = () => {
     }
 
     return {
-        products, displayProducts, setDisplayProducts,meats,fishes,fruits,dryFoods, user, registerUser, logInUser,admin, logOut, isLoading,
+        products, displayProducts, setDisplayProducts, meats, fishes, fruits, dryFoods, user, registerUser, logInUser, admin, logOut, isLoading,
         setError, error, handleEmail, handlePass, handleName, setUserName, email, pass, setUser, name, setLoading, cart, setCart
     }
 };
